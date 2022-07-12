@@ -147,7 +147,7 @@ header nav ul li:last-child{
 }
 
 main section{
-    height: 400px;
+    padding: 50px 0;
     background-color:#ffffff;
 }
 
@@ -300,6 +300,7 @@ hr{
 
 .miniflex{
     display: flex;
+    justify-content: space-between;
 }
 
 .flex{
@@ -333,16 +334,16 @@ span img{
     margin-right: 5px;
 }
 
-#social{
+.social{
     font-family: 'social';
-    justify-content: space-between;
 }
+
+.social:hover{
+    text-decoration: none;
+}
+
 
 footer ul li ul li{
     padding-top: 10px;
 }
 
-/* #wave{
-    background-color: #f6f6f6;
-    color: #f6f6f6;
-} */
