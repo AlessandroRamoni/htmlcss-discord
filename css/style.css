@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'social';
+    src: url('../font/discord-social.woff2'),
+         url('../font/discord-social.woff'),
+         url('../font/discord-social.ttf');
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -293,3 +301,11 @@ span img{
     margin-right: 5px;
 }
 
+#social{
+    font-family: 'social';
+    justify-content: space-between;
+}
+
+footer ul li ul li{
+    padding-top: 10px;
+}
