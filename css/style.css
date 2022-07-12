@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body{
-    max-width: 1200px;
-    margin: 0 auto;
-} */
-
 header{
    background-image: url(../img_discord/jumbo.png);
    background-size: cover;
@@ -27,7 +22,7 @@ header nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 
 }
@@ -60,21 +55,15 @@ header nav ul li:last-child{
 
 
 .flex_button{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-#accedi{
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-
 .titolo{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
     margin-top: 70px;
 }
 
@@ -99,6 +88,19 @@ header nav ul li:last-child{
     border-radius: 30px;
     background-color: #ffffff;
     cursor: pointer;
+    background-color: #8ea1e1;
+    color: #ffffff;
+    border: 0 solid;
+}
+
+
+#accedi{
+    color: #ffffff;
+}
+
+#mac{
+    background-color: #ffffff;
+    color: #23272a;
 }
 
 #apri{
@@ -112,16 +114,15 @@ header nav ul li:last-child{
 main section{
     height: 400px;
     background-color:#ffffff;
-   
 }
 
 
 main section div h3 {
-    font-size: 33px;
+    font-size: 2em;
 } 
 
 main section div p{
-    font-size: 15px;
+    font-size: 1em;
     margin-top: 15px;
 }
 
@@ -148,7 +149,7 @@ article{
 
 article div{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 article div h3, article div p{
@@ -157,10 +158,22 @@ article div h3, article div p{
 
 article div h3{
     padding-top: 50px;
+    font-size: 2em;
 }
 
 article div p{
     padding-top: 20px;
+    font-size: 1em;
+}
+
+article h5{
+    padding: 10px;
+    font-size: 1.2em;
+    background-image: url(../img_discord/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -181,7 +194,7 @@ footer ul{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 footer ul li{
@@ -204,7 +217,7 @@ footer ul li ul li{
 
 #closing{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
     background-color: #23272a;
     height: 100px;
     padding-top: 30px;
@@ -223,7 +236,7 @@ footer div button{
 }
 
 hr{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -241,13 +254,9 @@ hr{
 } */
 
 .minicontainer{
-    max-width: 800px;
-    gap: 150px;
+    max-width: 900px; 
 }
 
-/* .minicontainer > *{
-    flex-basis: 50%;
-} */
 
 .miniflex{
     display: flex;
@@ -257,22 +266,30 @@ hr{
     margin: auto;
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    gap: 150px;
 }
 
 .reverse{
     flex-direction: row-reverse;
-    gap: 150px;
+    gap: 100px;
+}
+
+.right{
+      flex-basis: 40%;
 }
 
 .left{
-    width: 2000px;
+    /* width: 2000px; */
+    flex-basis: 60%;
 }
 
 .left img{
-    width: 100%;
+    width: 100%; 
+  
 }
 
 span img{
     width: 20px;
+    margin-right: 5px;
 }
+
