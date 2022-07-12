@@ -12,9 +12,15 @@
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 header{
    background-image: url(../img_discord/jumbo.png);
    background-size: cover;
+   background-repeat: no-repeat;
    background-position: center;
     padding-bottom: 40px;
 }
@@ -75,7 +81,14 @@ header nav ul li:last-child{
     margin-top: 70px;
 }
 
-.titolo h1, .titolo p{
+.titolo h1{
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titolo p{
+    font-size: 1em;
     text-align: center;
     color: #ffffff;
 }
@@ -103,12 +116,22 @@ header nav ul li:last-child{
 
 
 #accedi{
-    color: #ffffff;
+    color: black;
+}
+
+#accedi:hover{
+    color: #993de6;
+    box-shadow:   0 3px 10px rgb(128, 128, 128),
+                  0 0 10px rgb(100, 99, 99);
 }
 
 #mac{
     background-color: #ffffff;
     color: #23272a;
+}
+
+#mac:hover{
+    color: #6578bd ;
 }
 
 #apri{
@@ -117,6 +140,10 @@ header nav ul li:last-child{
     background-color: #23272a;
     color: #ffffff;
     cursor: pointer;
+}
+
+#apri:hover{
+    background-color: #121518;
 }
 
 main section{
@@ -221,6 +248,11 @@ footer ul li ul{
 footer ul li ul li{
     color: #ffffff;
     padding-top: 5px;
+    cursor: pointer;
+}
+
+footer ul li ul li:hover{
+    text-decoration: underline;
 }
 
 #closing{
@@ -309,3 +341,8 @@ span img{
 footer ul li ul li{
     padding-top: 10px;
 }
+
+/* #wave{
+    background-color: #f6f6f6;
+    color: #f6f6f6;
+} */
