@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+header{
+    background-color: #3161e0;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+header nav{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+header nav ul li {
+    margin: 20px 10px;
+    padding: 8px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+}
+
+header nav ul li:first-child{
+    flex-grow: 1;
+    text-align: start;
+    margin-left: 0;
+    padding: 0;
+}
+
+header nav ul li:last-child{
+    flex-grow: 1;
+    text-align: end;
+    margin-right: 0;
+    padding: 0;
+}
+
+
+.flex_button{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#accedi{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.titolo{
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 70px;
+}
+
+.titolo h1, .titolo p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.titolo p{
+    padding-top: 40px;
+}
+
+.bottoni{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.scarica{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#apri{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #23272a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+main section{
+    height: 400px;
+    background-color:#ffffff;
+   
+}
+
+
+main section div h3 {
+    font-size: 33px;
+} 
+
+main section div p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+main section:nth-child(2){
+    background-color:  #f6f6f6;
+}
+
+#immagine{
+    width: 250px;
+    height: 200px;
+    background-color: lightseagreen;
+}
+
+
+article{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+
+article div{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+article div h3, article div p{
+    text-align: center;
+}
+
+article div h3{
+    padding-top: 50px;
+}
+
+article div p{
+    padding-top: 20px;
+}
+
+
+#immaginebig{
+    width: 800px;
+    height: 200px;
+    background-color: lightseagreen;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+footer ul li{
+    color: #6578bd;
+}
+
+footer > ul{
+    padding-top: 40px;
+}
+
+footer ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li ul li{
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+#closing{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #23272a;
+    height: 100px;
+    padding-top: 30px;
+}
+
+#closing div{
+    color: #ffffff;
+}
+
+footer div div{
+    float: left;
+}
+
+footer div button{
+    float: right;
+}
+
+hr{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#registrati{
+    background-color: #8ea1e1;
+    padding: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* .container{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+.minicontainer{
+    max-width: 800px;
+    gap: 150px;
+}
+
+/* .minicontainer > *{
+    flex-basis: 50%;
+} */
+
+.miniflex{
+    display: flex;
+}
+
+.flex{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    gap: 150px;
+}
