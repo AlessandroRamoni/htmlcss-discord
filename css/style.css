@@ -10,8 +10,9 @@
 } */
 
 header{
-    background-color: #3161e0;
-    position: relative;
+   background-image: url(../img_discord/jumbo.png);
+   background-size: cover;
+   background-position: center;
     padding-bottom: 40px;
 }
 
@@ -262,4 +263,16 @@ hr{
 .reverse{
     flex-direction: row-reverse;
     gap: 150px;
+}
+
+.left{
+    width: 2000px;
+}
+
+.left img{
+    width: 100%;
+}
+
+span img{
+    width: 20px;
 }
