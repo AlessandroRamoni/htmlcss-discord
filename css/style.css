@@ -38,7 +38,6 @@ header nav ul{
     justify-content: center;
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 
@@ -147,7 +146,7 @@ header nav ul li:last-child{
 }
 
 main section{
-    padding: 50px 0;
+    padding: 100px 0; 
     background-color:#ffffff;
 }
 
@@ -208,7 +207,6 @@ article h5{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 
@@ -288,11 +286,6 @@ hr{
     color: #ffffff;
 }
 
-/* .container{
-    max-width: 1200px;
-    margin: 0 auto;
-} */
-
 .minicontainer{
     max-width: 900px; 
 }
@@ -320,7 +313,6 @@ hr{
 }
 
 .left{
-    /* width: 2000px; */
     flex-basis: 60%;
 }
 
@@ -349,4 +341,5 @@ footer ul li ul li{
 
 main > div img{
    color:  #f6f6f6;
+   border-color: #f6f6f6;
 }
