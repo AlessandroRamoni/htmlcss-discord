@@ -160,7 +160,7 @@ main section div p{
     margin-top: 15px;
 }
 
-main section:nth-child(2){
+main section:nth-child(3){
     background-color:  #f6f6f6;
 }
 
@@ -339,7 +339,10 @@ footer ul li ul li{
     padding-top: 10px;
 }
 
-main > div img{
-   color:  #f6f6f6;
-   border-color: #f6f6f6;
+main > div{
+   margin: 0%;
+}
+
+#ondarovesciata{
+    transform: rotate(180deg);
 }
