@@ -346,3 +346,7 @@ main > div{
 #ondarovesciata{
     transform: rotate(180deg);
 }
+
+.line-height{
+    line-height: 0;
+}
